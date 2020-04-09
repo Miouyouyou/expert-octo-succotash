@@ -1,0 +1,16 @@
+.navbar_inline_simple {
+	display: grid;
+	align-items: center;
+}
+
+.navbar_inline_simple li {
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.navbar_inline_simple a, .navbar_inline_simple a:hover, .navbar_inline_simple a:focus {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
