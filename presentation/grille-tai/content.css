@@ -1,0 +1,23 @@
+.grille-tai {
+	display: grid;
+	grid-template:
+		"menu"
+		"accroche"
+		"infos";
+	min-height: 100vh;
+	grid-template-rows:
+		120px auto 200px;
+}
+
+.grille-tai-menu {
+	grid-area: "menu";
+}
+
+.grille-tai-accroche {
+	grid-area: "accroche";
+}
+
+.grille-tai-infos {
+	grid-area: "infos";
+}
+
