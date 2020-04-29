@@ -1,0 +1,21 @@
+.login-gd {
+	display: grid;
+	grid-template-areas:
+		"entete entete"
+		"gauche droite";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 48px auto;
+}
+
+.login-gd-entete {
+	grid-area: entete;
+}
+
+.login-gd-gauche {
+	grid-area: gauche;
+}
+
+.login-gd-droite {
+	grid-area: droite;
+}
+

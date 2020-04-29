@@ -1,0 +1,13 @@
+.grille-gd {
+	display: grid;
+	grid-template-areas: "gauche droite";
+	grid-template-columns: 50% 50%;
+}
+
+.grille-gd-gauche {
+	grid-area: gauche;
+}
+
+.grille-gd-droite {
+	grid-area: droite;
+}
