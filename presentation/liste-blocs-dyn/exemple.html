@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Exemple</title>
+	<meta charset="utf8" />
+	<link rel="stylesheet" href="../../reset.css" />
+	<link rel="stylesheet" href="content.css" />
+	<style type="text/css">
+	body {
+		font-family: "Noto Sans", "Roboto", sans-serif;
+		font-size: 14pt;
+	}
+	.bloc {
+		width: 350px;
+		border-radius: 15px;
+		box-shadow: 0px 0px 50px rgba(0,0,0,.4);
+		margin: 6rem;
+		display: grid;
+		grid-template-areas: 
+			"titre"
+			"contenu";
+		grid-template-rows: auto min(350px);
+		grid-template-columns: 100%;
+	}
+	.bloc h1 {
+		grid-area: titre;
+		background-color: darkblue;
+		color: white;
+		font-weight: bold;
+		font-size: 1.2rem;
+		width: 100%;
+		border-radius: 15px 15px 0px 0px;
+	}
+
+	.bloc h1, .bloc titre { padding: 1rem; }
+
+	</style>
+</head>
+<body class="liste-blocs-dyn">
+<div class="bloc"><h1>Premier bloc</h1></div>
+<div class="bloc"><h1>Second bloc</h1></div>
+<div class="bloc"><h1>Troisième bloc</h1></div>
+<body>
+</html>
