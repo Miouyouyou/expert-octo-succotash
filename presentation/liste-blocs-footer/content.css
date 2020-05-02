@@ -1,0 +1,33 @@
+.liste-blocs-footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	line-height: 1.5;
+}
+
+.liste-blocs-footer > * {
+	display: block;
+}
+
+.liste-blocs-footer h1 {
+	font-variant: small-caps;
+	font-weight: bold;
+	margin: 0.5rem 0px;
+}
+
+.liste-blocs-footer ul {
+	list-style: none inside;
+}
+
+.liste-blocs-footer li {
+	color: #444;
+}
+
+.liste-blocs-footer a {
+	text-decoration: none;
+}
+
+.liste-blocs-footer a:hover {
+	color: #555;
+	transition: color 1s ease-in-out;
+}
