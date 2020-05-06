@@ -1,0 +1,19 @@
+.bloc-material {
+	box-shadow: 0 0 30px 6px rgba(31, 51, 73, 0.10);
+	width: 500px;
+	
+}
+
+.bloc-material h1 {
+	font-size: 1.5rem;
+	color: white;
+	height: 3.5rem;
+	background-color: #80868b;
+	padding: 1rem;
+}
+
+.bloc-material main {
+	padding: 1rem;
+
+}
+
