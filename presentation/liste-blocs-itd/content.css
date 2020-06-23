@@ -1,0 +1,5 @@
+.liste-blocs-itd {
+	display: flex;
+	flex-flow: row wrap;
+}
+

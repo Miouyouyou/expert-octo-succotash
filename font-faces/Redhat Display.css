@@ -1,0 +1,52 @@
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/regular.otf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/bold.otf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/black.otf');
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/mediumitalic.otf');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/medium.otf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/bolditalic.otf');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/italic.otf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Redhat Display";
+	src: url('fonts/Redhat Display/blackitalic.otf');
+	font-weight: 900;
+	font-style: italic;
+}
